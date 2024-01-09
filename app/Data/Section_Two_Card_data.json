@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"512\" height=\"512\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M320 176V16H32v480h128v-96h32v96h288V176ZM112 432H80v-32h32Zm0-80H80v-32h32Zm0-80H80v-32h32Zm0-80H80v-32h32Zm0-80H80V80h32Zm128-32h32v32h-32Zm-48 272h-32v-32h32Zm0-80h-32v-32h32Zm0-80h-32v-32h32Zm0-80h-32v-32h32Zm0-80h-32V80h32Zm80 320h-32v-32h32Zm0-80h-32v-32h32Zm0-80h-32v-32h32Zm0-80h-32v-32h32zm176 272H320v-32h32v-32h-32v-48h32v-32h-32v-48h32v-32h-32v-32h128Z\"></path><path fill=\"currentColor\" d=\"M384 400h32v32h-32zm0-80h32v32h-32zm0-80h32v32h-32z\"></path></svg>",
+    "title": "We Support Your Business",
+    "content": "We're not just your typical business tax accountant; we also offer top-quality bookkeeping services, expert financial advice, and tailored business advisory for startups, small, and medium enterprises."
+  },
+  {
+    "id": 2,
+    "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"512\" height=\"512\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M396 432H136c-36.44 0-70.36-12.57-95.51-35.41C14.38 372.88 0 340 0 304c0-36.58 13.39-68.12 38.72-91.22c18.11-16.53 42.22-28.25 69.18-33.87a16 16 0 0 0 11.37-9.15a156.24 156.24 0 0 1 42.05-56C187.76 91.69 220.5 80 256 80a153.57 153.57 0 0 1 107.14 42.9c24.73 23.81 41.5 55.28 49.18 92a16 16 0 0 0 12.12 12.39C470 237.42 512 270.43 512 328c0 33.39-12.24 60.78-35.41 79.23C456.23 423.43 428.37 432 396 432\"></path></svg>",
+    "title": "Cloud Based Accounting Software",
+    "content": "Our business accountants use cloud-based accounting software and real-time financial reporting to make sure you have accurate, current information, enabling you to develop suitable growth strategies."
+  },
+  {
+    "id": 3,
+    "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"512\" height=\"512\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M256 256a112 112 0 1 0-112-112a112 112 0 0 0 112 112m0 32c-69.42 0-208 42.88-208 128v64h416v-64c0-85.12-138.58-128-208-128\"></path></svg>",
+    "title": "Personal Tax Accountants",
+    "content": "We partner with you to optimise your tax position, ensuring you claim all pertinent deductions for your profession. We also offer assistance with overdue lodgements and outstanding tax debts."
+  },
+  {
+    "id": 4,
+    "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"512\" height=\"512\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M106 304v-54h54v-36h-54v-54H70v54H16v36h54v54z\"></path><circle cx=\"288\" cy=\"144\" r=\"112\" fill=\"currentColor\"></circle><path fill=\"currentColor\" d=\"M288 288c-69.42 0-208 42.88-208 128v64h416v-64c0-85.12-138.58-128-208-128\"></path></svg>",
+    "title": "Accessible Accountants",
+    "content": "Our aim is to make top-notch personal and business accounting accessible to everyone. Count on us for unbiased, expert taxation, and financial advice."
+  }
+]
