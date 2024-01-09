@@ -41,7 +41,7 @@ export const ContactForm = () => {
           message,
         }),
         headers: {
-          'content-type': 'application/json',
+          'content-type': 'text/html',
         },
       });
 
