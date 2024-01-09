@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "href": "/Tax",
+    "image": "/assets/images/individual_tax.jpg",
+    "title": "Individual & Business Tax",
+    "content": "Beyond personal tax prep, we offer second look assessments, support for multi-year returns, and expert tax debt management. Tailored business accounting and legal structure services for growth and success."
+  },
+  {
+    "id": 2,
+    "href": "/Accounting",
+    "image": "/assets/images/business_startup.jpg",
+    "title": "Business Start-up Accounting",
+    "content": "Our specialised accounting services are crafted to empower startups, allowing you the freedom to concentrate on daily operations from the very beginning."
+  },
+  {
+    "id": 3,
+    "href": "/Planning",
+    "image": "/assets/images/financial_planning.jpg",
+    "title": "Financial Planning Services",
+    "content": "Customised advice and guidance to streamline your financial future. Our financial services cater to both business owners and personal wealth management."
+  },
+  {
+    "id": 4,
+    "href": "/NDIS",
+    "image": "/assets/images/ndis.png",
+    "title": "NDIS Plan Management",
+    "content": "Discover unparalleled plan management services on our website, delivering seamless control and optimisation, enhancing efficiency for a superior experience in navigating and managing your plans effortlessly."
+  },
+  {
+    "id": 5,
+    "href": "/Grant",
+    "image": "/assets/images/grant_assistance.jpg",
+    "title": "Grant Assistance",
+    "content": "Elevate your organisation with our expert assistance in securing government grants. Unlock funding opportunities seamlessly through our tailored solutions, driving growth and success for your mission."
+  },
+  {
+    "id": 6,
+    "href": "/Registrations",
+    "image": "/assets/images/registrations.webp",
+    "title": "Registrations",
+    "content": "Unlock growth with our seamless registration services. From company and ABN registration to NFP/Charity registration, we simplify the process, ensuring your venture starts on a solid foundation."
+  }
+]
