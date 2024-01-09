@@ -83,7 +83,7 @@ const Hero = () => {
       }}
       initial = 'initial'
       animate='animate'
-      className='bg-sky-100'
+      className='bg-sky-100 mt-5 md:-mt-2'
       >
         <Container>
           <motion.div 
