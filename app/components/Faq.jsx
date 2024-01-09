@@ -35,7 +35,7 @@ const Faq = () => {
             <p className='text-2xl/snug md:text-3xl/snug font-medium'>
                 Reliant Business Solutions
             </p>
-            <p className='text-lg/snug md:text-xl/snug font-normal text-gray-500'>
+            <p className='text-lg/snug md:text-xl/snug font-normal text-gray-500 -mt-5 md:mt-4'>
               Explore responses to frequently asked questions about tax returns, small business matters, and financial planning from our team of experienced accountants.
             </p>
           </motion.div>
