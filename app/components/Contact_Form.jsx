@@ -30,7 +30,7 @@ export const ContactForm = () => {
     }
 
     try {
-      const res = await fetch('/api', {
+      const res = await fetch('/api/contact', {
         method: 'POST',
         body: JSON.stringify({
           firstName,
