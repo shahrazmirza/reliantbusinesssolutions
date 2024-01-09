@@ -27,7 +27,7 @@ import Mailgun from 'mailgun.js';
 
   try {
     const emailRes = await client.messages.create(DOMAIN, messageData)
-    console.log('Email response', emailRes)
+    console.log(emailRes)
   } catch (err) {
     console.error('Error sending email', err);
   }
