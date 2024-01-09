@@ -31,6 +31,6 @@ import Mailgun from 'mailgun.js';
   } catch (err) {
     console.error('Error sending email', err);
   }
-  res.setHeader('Content-Type', 'text/html');
+  
   res.status(200).json({ submitted: true })
 }
