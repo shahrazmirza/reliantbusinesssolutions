@@ -43,7 +43,7 @@ const FAQs = () => {
               }}
               initial = 'initial'
               animate='animate'
-              className='pt-5 pb-5'>
+              className='pt-5 pb-5 px-7'>
                 <div>
                   {accordionData.map(({ id, title, content }) => (
                     <Accordion key={id} title={title} content={content} />
