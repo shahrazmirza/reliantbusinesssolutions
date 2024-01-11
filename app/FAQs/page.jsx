@@ -9,7 +9,7 @@ import accordionData from '../Data/AccordionData.json';
 import accordionData2 from '../Data/AccordionData2.json';
 import Link from 'next/link';
 import { motion } from "framer-motion";
-import Whatsapp from '../components/whatsapp'
+import Whatsapp from '../components/Whatsapp'
 
 const FAQs = () => {
   return (
