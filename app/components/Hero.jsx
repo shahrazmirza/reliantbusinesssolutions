@@ -125,7 +125,7 @@ const Hero = () => {
             }}
             initial = 'initial'
             animate='animate'
-            className='md:flex md:gap-3 py-5 md:p-5'
+            className='md:flex md:gap-3 pl-1 py-5 md:p-5'
             >
               <div>
                 <Image
@@ -171,7 +171,7 @@ const Hero = () => {
             }}
             initial = 'initial'
             animate='animate'
-            className='md:flex md:gap-3 py-5 md:p-5'
+            className='md:flex md:gap-3 pl-1 py-5 md:p-5'
             >
               <div>
                 <Image
