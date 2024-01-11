@@ -7,7 +7,7 @@ import { Container, Section } from '@radix-ui/themes'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from "framer-motion";
-import Whatsapp from '../components/whatsapp'
+import Whatsapp from '../components/Whatsapp'
 
 const Planning = () => {
   return (
