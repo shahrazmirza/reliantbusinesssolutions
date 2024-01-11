@@ -47,9 +47,9 @@ const NDIS = () => {
           initial = 'initial'
           animate='animate'
           className='md:px-20 md:pr-40 p-7'>
-            <p className='text-base/relaxed font-normal text-gray-500 text-center drop-shadow-sm'>Our Services</p>
-            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold drop-shadow-sm'>NDIS Plan Management––</p>
-            <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Our services will navigate the complexities of NDIS plan management for you</p>
+            <p className='text-base/relaxed font-normal text-gray-500 text-center md:drop-shadow-sm'>Our Services</p>
+            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>NDIS Plan Management––</p>
+            <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Our services will navigate the complexities of NDIS plan management for you</p>
             
             <div className='flex px-4 pt-4'>
               <div class="flex items-center justify-center w-6 h-6 bg-pink-200 rounded-full mt-1">
@@ -58,8 +58,8 @@ const NDIS = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Claims and Payments</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Efficient processing of NDIS claims and timely payments.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Claims and Payments</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Efficient processing of NDIS claims and timely payments.</p>
               </div>
             </div>
 
@@ -70,8 +70,8 @@ const NDIS = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Budget Management</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Strategic planning and oversight to optimise NDIS budgets.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Budget Management</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Strategic planning and oversight to optimise NDIS budgets.</p>
               </div>
             </div>
 
@@ -82,8 +82,8 @@ const NDIS = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Financial Reporting</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Detailed reports to keep you informed about your financial position.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Financial Reporting</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Detailed reports to keep you informed about your financial position.</p>
               </div>
             </div>
           </motion.div>
@@ -91,9 +91,9 @@ const NDIS = () => {
         
         <div className='md:grid md:grid-cols-2 flex flex-col-reverse items-center bg-sky-100'>
           <div className='md:px-20 md:pl-28 p-7'>
-            <p className='text-base/relaxed font-normal text-gray-500 text-center drop-shadow-sm'>Our Services</p>
-            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold drop-shadow-sm'>Client Support & Advocacy––</p>
-            <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>We go beyond numbers to provide support and advocacy for our clients</p>
+            <p className='text-base/relaxed font-normal text-gray-500 text-center md:drop-shadow-sm'>Our Services</p>
+            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Client Support & Advocacy––</p>
+            <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>We go beyond numbers to provide support and advocacy for our clients</p>
             <div className='flex px-4 pt-4'>
               <div class="flex items-center justify-center w-6 h-6 bg-emerald-300 rounded-full mt-1">
                 <svg class="w-6 h-6 text-stone-600 opacity-60 p-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -101,8 +101,8 @@ const NDIS = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Assistance with Plan Reviews</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Helping clients navigate plan reviews and updates.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Assistance with Plan Reviews</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Helping clients navigate plan reviews and updates.</p>
               </div>
             </div>
 
@@ -113,8 +113,8 @@ const NDIS = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Advocacy for Additional Supports</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Working on behalf of clients to secure necessary additional supports.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Advocacy for Additional Supports</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Working on behalf of clients to secure necessary additional supports.</p>
               </div>
             </div>
             
@@ -137,9 +137,9 @@ const NDIS = () => {
               ></Image>
           </div>
           <div className='md:px-20 md:pr-40 p-7'>
-            <p className='text-base/relaxed font-normal text-gray-500 text-center drop-shadow-sm'>Our Services</p>
-            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold drop-shadow-sm'>Compliance and Training––</p>
-            <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Stay compliant and up-to-date with our compliance and training services</p>
+            <p className='text-base/relaxed font-normal text-gray-500 text-center md:drop-shadow-sm'>Our Services</p>
+            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Compliance and Training––</p>
+            <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Stay compliant and up-to-date with our compliance and training services</p>
             
             <div className='flex px-4 pt-4'>
               <div class="flex items-center justify-center w-6 h-6 bg-pink-200 rounded-full mt-1">
@@ -148,8 +148,8 @@ const NDIS = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>NDIS Compliance</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Ensuring your business adheres to NDIS standards and regulations.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>NDIS Compliance</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Ensuring your business adheres to NDIS standards and regulations.</p>
               </div>
             </div>
 
@@ -160,8 +160,8 @@ const NDIS = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Staff Training</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Training your team on NDIS processes and compliance requirements.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Staff Training</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Training your team on NDIS processes and compliance requirements.</p>
               </div>
             </div>
             
@@ -184,8 +184,8 @@ const NDIS = () => {
                   </svg>
                 </div>
                 <div className='pl-4'>
-                  <p className='text-base/relaxed font-medium drop-shadow-sm'>Expert NDIS Knowledge</p>
-                  <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Our team has extensive experience and expertise in NDIS plan management.</p>
+                  <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Expert NDIS Knowledge</p>
+                  <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Our team has extensive experience and expertise in NDIS plan management.</p>
                 </div>
               </div>
 
@@ -196,8 +196,8 @@ const NDIS = () => {
                   </svg>
                 </div>
                 <div className='pl-4'>
-                  <p className='text-base/relaxed font-medium drop-shadow-sm'>Client-Centric Approach</p>
-                  <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>We understand the importance of client satisfaction and tailor our services to meet individual needs.</p>
+                  <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Client-Centric Approach</p>
+                  <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>We understand the importance of client satisfaction and tailor our services to meet individual needs.</p>
                 </div>
               </div>
 
@@ -208,8 +208,8 @@ const NDIS = () => {
                   </svg>
                 </div>
                 <div className='pl-4'>
-                  <p className='text-base/relaxed font-medium drop-shadow-sm'>Reliability</p>
-                  <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Count on us for accurate, timely, and confidential NDIS plan management services.</p>
+                  <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Reliability</p>
+                  <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Count on us for accurate, timely, and confidential NDIS plan management services.</p>
                 </div>
               </div>
               
