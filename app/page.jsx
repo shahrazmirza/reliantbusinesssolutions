@@ -15,7 +15,7 @@ const page = () => {
     <div>
       <Navbar />
       <Scroll_to_top />
-{/*       <Whatsapp /> */}
+      <Whatsapp />
       <Hero />
       <Services_section_one />
       <Services_section_two />
