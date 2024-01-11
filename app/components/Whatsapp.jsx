@@ -27,8 +27,8 @@ const Whatsapp = () => {
       <Link
       href="https://wa.me/+61403320350"
       target="_blank"
-      className={`fixed md:w-14 md:h-14 w-12 h-12 text-center flex items-center justify-center bottom-7 md: right-7 bg-sky-700 text-white p-0 rounded-full transition-opacity ${
-        isVisible ? 'opacity-80' : 'opacity-100'
+      className={`fixed md:w-14 md:h-14 w-12 h-12 text-center flex items-center justify-center bottom-7 md: right-7 bg-green-600 text-white p-0 rounded-full transition-opacity ${
+        isVisible ? 'opacity-100' : 'opacity-100'
       }`}
       >
         <FaWhatsapp className='md:w-6 md:h-6'/>
