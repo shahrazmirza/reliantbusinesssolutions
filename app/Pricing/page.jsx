@@ -5,7 +5,7 @@ import Scroll_to_top from '../components/Scroll_to_top'
 import Footer from '../components/Footer'
 import { Container, Table } from '@radix-ui/themes'
 import Link from 'next/link';
-import Whatsapp from '../components/whatsapp'
+import Whatsapp from '../components/Whatsapp'
 
 const Pricing = () => {
   return (
