@@ -47,9 +47,9 @@ const Accounting = () => {
           initial = 'initial'
           animate='animate'
           className='md:px-20 md:pr-40 p-7'>
-            <p className='text-base/relaxed font-normal text-gray-500 text-center drop-shadow-sm'>Our Services</p>
-            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold drop-shadow-sm'>Business Startup Accounting––</p>
-            <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Our specialised business startup accounting services are here to help you</p>
+            <p className='text-base/relaxed font-normal text-gray-500 text-center md:drop-shadow-sm'>Our Services</p>
+            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Business Startup Accounting––</p>
+            <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Our specialised business startup accounting services are here to help you</p>
             
             <div className='flex px-4 pt-4'>
               <div class="flex items-center justify-center w-6 h-6 bg-pink-200 rounded-full mt-1">
@@ -58,8 +58,8 @@ const Accounting = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Entity Setup</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Expert assistance in choosing the right business structure for your needs.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Entity Setup</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Expert assistance in choosing the right business structure for your needs.</p>
               </div>
             </div>
 
@@ -70,8 +70,8 @@ const Accounting = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Financial Planning</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Tailored financial strategies to set your business on the path to success.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Financial Planning</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Tailored financial strategies to set your business on the path to success.</p>
               </div>
             </div>
 
@@ -82,8 +82,8 @@ const Accounting = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Tax Registration</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Seamless registration for all necessary tax obligations.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Tax Registration</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Seamless registration for all necessary tax obligations.</p>
               </div>
             </div>
           </motion.div>
@@ -91,9 +91,9 @@ const Accounting = () => {
         
         <div className='md:grid md:grid-cols-2 flex flex-col-reverse items-center bg-sky-100'>
           <div className='md:px-20 md:pl-28 p-7'>
-            <p className='text-base/relaxed font-normal text-gray-500 text-center drop-shadow-sm'>Our Services</p>
-            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold drop-shadow-sm'>Comprehensive Bookkeeping––</p>
-            <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Our bookkeeping services will keep your financial records in order</p>
+            <p className='text-base/relaxed font-normal text-gray-500 text-center md:drop-shadow-sm'>Our Services</p>
+            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Comprehensive Bookkeeping––</p>
+            <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Our bookkeeping services will keep your financial records in order</p>
             <div className='flex px-4 pt-4'>
               <div class="flex items-center justify-center w-6 h-6 bg-emerald-300 rounded-full mt-1">
                 <svg class="w-6 h-6 text-stone-600 opacity-60 p-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -101,8 +101,8 @@ const Accounting = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Transaction Recording</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Accurate and timely recording of financial transactions.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Transaction Recording</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Accurate and timely recording of financial transactions.</p>
               </div>
             </div>
 
@@ -113,8 +113,8 @@ const Accounting = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Bank Reconciliation</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Ensuring your bank statements align with your financial records.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Bank Reconciliation</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Ensuring your bank statements align with your financial records.</p>
               </div>
             </div>
 
@@ -125,8 +125,8 @@ const Accounting = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Financial Reporting</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Customised reports to help you make informed business decisions.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Financial Reporting</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Customised reports to help you make informed business decisions.</p>
               </div>
             </div>
           </div>
@@ -148,9 +148,9 @@ const Accounting = () => {
               ></Image>
           </div>
           <div className='md:px-20 md:pr-40 p-7'>
-            <p className='text-base/relaxed font-normal text-gray-500 text-center drop-shadow-sm'>Our Services</p>
-            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold drop-shadow-sm'>Ongoing Support––</p>
-            <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>We're more than just numbers. Reliant Business Solutions offers ongoing support to help your business thrive</p>
+            <p className='text-base/relaxed font-normal text-gray-500 text-center md:drop-shadow-sm'>Our Services</p>
+            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Ongoing Support––</p>
+            <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>We're more than just numbers. Reliant Business Solutions offers ongoing support to help your business thrive</p>
             
             <div className='flex px-4 pt-4'>
               <div class="flex items-center justify-center w-6 h-6 bg-pink-200 rounded-full mt-1">
@@ -159,8 +159,8 @@ const Accounting = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Financial Analysis</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Regular analysis of your financial data to identify trends and opportunities.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Financial Analysis</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Regular analysis of your financial data to identify trends and opportunities.</p>
               </div>
             </div>
 
@@ -171,8 +171,8 @@ const Accounting = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Tax Compliance</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Ensuring your business meets all tax obligations, leaving you free to focus on growth.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Tax Compliance</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Ensuring your business meets all tax obligations, leaving you free to focus on growth.</p>
               </div>
             </div>
 
@@ -183,8 +183,8 @@ const Accounting = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Business Advisory</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Expert advice to guide your business through every stage of growth.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Business Advisory</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Expert advice to guide your business through every stage of growth.</p>
               </div>
             </div>
           </div>
@@ -206,8 +206,8 @@ const Accounting = () => {
                   </svg>
                 </div>
                 <div className='pl-4'>
-                  <p className='text-base/relaxed font-medium drop-shadow-sm'>Startup Specialists</p>
-                  <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>We specialise in assisting startups, providing the expertise needed to navigate the initial challenges.</p>
+                  <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Startup Specialists</p>
+                  <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>We specialise in assisting startups, providing the expertise needed to navigate the initial challenges.</p>
                 </div>
               </div>
 
@@ -218,8 +218,8 @@ const Accounting = () => {
                   </svg>
                 </div>
                 <div className='pl-4'>
-                  <p className='text-base/relaxed font-medium drop-shadow-sm'>Personalised Approach</p>
-                  <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Your business is unique, and so are our services. We tailor our solutions to meet your specific needs.</p>
+                  <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Personalised Approach</p>
+                  <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Your business is unique, and so are our services. We tailor our solutions to meet your specific needs.</p>
                 </div>
               </div>
 
@@ -230,8 +230,8 @@ const Accounting = () => {
                   </svg>
                 </div>
                 <div className='pl-4'>
-                  <p className='text-base/relaxed font-medium drop-shadow-sm'>Reliability</p>
-                  <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Trust in our team of professionals to deliver accurate, timely, and confidential services.</p>
+                  <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Reliability</p>
+                  <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Trust in our team of professionals to deliver accurate, timely, and confidential services.</p>
                 </div>
               </div>
               
