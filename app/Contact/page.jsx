@@ -4,7 +4,7 @@ import Scroll_to_top from '../components/Scroll_to_top'
 import Footer from '../components/Footer'
 import { Container } from '@radix-ui/themes'
 import Contact_Form from '../components/Contact_Form'
-import Whatsapp from '../components/whatsapp'
+import Whatsapp from '../components/Whatsapp'
 
 const Contact = () => {
   return (
