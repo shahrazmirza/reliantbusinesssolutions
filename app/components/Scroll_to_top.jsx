@@ -18,7 +18,7 @@ const Scroll_to_top = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 440) {
+      if (window.scrollY > 500) {
         setIsVisible(true);
       } else {
         setIsVisible(false);
