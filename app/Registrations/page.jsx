@@ -47,9 +47,9 @@ const Registrations = () => {
           initial = 'initial'
           animate='animate'
           className='md:px-20 md:pr-40 p-7'>
-            <p className='text-base/relaxed font-normal text-gray-500 text-center drop-shadow-sm'>Our Services</p>
-            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold drop-shadow-sm'>Business Registration Services––</p>
-            <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Our services will navigate the complexities of business registration in establishing your venture</p>
+            <p className='text-base/relaxed font-normal text-gray-500 text-center md:drop-shadow-sm'>Our Services</p>
+            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Business Registration Services––</p>
+            <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Our services will navigate the complexities of business registration in establishing your venture</p>
             
             <div className='flex px-4 pt-4'>
               <div class="flex items-center justify-center w-6 h-6 bg-pink-200 rounded-full mt-1">
@@ -58,8 +58,8 @@ const Registrations = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>ABN Registration</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Streamlined processes to secure your Australian Business Number</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>ABN Registration</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Streamlined processes to secure your Australian Business Number</p>
               </div>
             </div>
 
@@ -70,8 +70,8 @@ const Registrations = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Company Registration</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Comprehensive support for the establishment and registration of your company.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Company Registration</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Comprehensive support for the establishment and registration of your company.</p>
               </div>
             </div>
 
@@ -82,8 +82,8 @@ const Registrations = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>TFN and GST Registration</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Ensuring your business is compliant with tax obligations from the beginning.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>TFN and GST Registration</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Ensuring your business is compliant with tax obligations from the beginning.</p>
               </div>
             </div>
           </motion.div>
@@ -91,9 +91,9 @@ const Registrations = () => {
         
         <div className='md:grid md:grid-cols-2 flex flex-col-reverse items-center bg-sky-100'>
           <div className='md:px-20 md:pl-28 p-7'>
-            <p className='text-base/relaxed font-normal text-gray-500 text-center drop-shadow-sm'>Our Services</p>
-            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold drop-shadow-sm'>Charity Registration and DGR Status Application––</p>
-            <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>For organisations with a charitable mission, our services extend to charity registration and DGR (Deductible Gift Recipient) status application</p>
+            <p className='text-base/relaxed font-normal text-gray-500 text-center md:drop-shadow-sm'>Our Services</p>
+            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Charity Registration and DGR Status Application––</p>
+            <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>For organisations with a charitable mission, our services extend to charity registration and DGR (Deductible Gift Recipient) status application</p>
             <div className='flex px-4 pt-4'>
               <div class="flex items-center justify-center w-6 h-6 bg-emerald-300 rounded-full mt-1">
                 <svg class="w-6 h-6 text-stone-600 opacity-60 p-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -101,8 +101,8 @@ const Registrations = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Charity Registration</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Expert guidance through the charity registration process.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Charity Registration</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Expert guidance through the charity registration process.</p>
               </div>
             </div>
 
@@ -113,8 +113,8 @@ const Registrations = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>DGR Status Application</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Assistance in applying for Deductible Gift Recipient status to enhance fundraising opportunities.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>DGR Status Application</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Assistance in applying for Deductible Gift Recipient status to enhance fundraising opportunities.</p>
               </div>
             </div>
             
@@ -137,9 +137,9 @@ const Registrations = () => {
               ></Image>
           </div>
           <div className='md:px-20 md:pr-40 p-7'>
-            <p className='text-base/relaxed font-normal text-gray-500 text-center drop-shadow-sm'>Our Services</p>
-            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold drop-shadow-sm'>Ongoing Compliance Support––</p>
-            <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>We go beyond registration to offer ongoing compliance support</p>
+            <p className='text-base/relaxed font-normal text-gray-500 text-center md:drop-shadow-sm'>Our Services</p>
+            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Ongoing Compliance Support––</p>
+            <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>We go beyond registration to offer ongoing compliance support</p>
             
             <div className='flex px-4 pt-4'>
               <div class="flex items-center justify-center w-6 h-6 bg-pink-200 rounded-full mt-1">
@@ -148,8 +148,8 @@ const Registrations = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Annual Compliance Checks</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Regular checks to ensure ongoing compliance with regulatory requirements.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Annual Compliance Checks</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Regular checks to ensure ongoing compliance with regulatory requirements.</p>
               </div>
             </div>
 
@@ -160,8 +160,8 @@ const Registrations = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Updates and Amendments</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Assistance with any necessary updates or amendments to your registered details.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Updates and Amendments</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Assistance with any necessary updates or amendments to your registered details.</p>
               </div>
             </div>
                       
@@ -184,8 +184,8 @@ const Registrations = () => {
                   </svg>
                 </div>
                 <div className='pl-4'>
-                  <p className='text-base/relaxed font-medium drop-shadow-sm'>Expert Guidance</p>
-                  <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Our team brings extensive experience in business and charity registration processes.</p>
+                  <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Expert Guidance</p>
+                  <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Our team brings extensive experience in business and charity registration processes.</p>
                 </div>
               </div>
 
@@ -196,8 +196,8 @@ const Registrations = () => {
                   </svg>
                 </div>
                 <div className='pl-4'>
-                  <p className='text-base/relaxed font-medium drop-shadow-sm'>Tailored Solutions</p>
-                  <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>We understand that each business or organization is unique. Our services are tailored to meet your specific needs.</p>
+                  <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Tailored Solutions</p>
+                  <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>We understand that each business or organization is unique. Our services are tailored to meet your specific needs.</p>
                 </div>
               </div>
 
@@ -208,8 +208,8 @@ const Registrations = () => {
                   </svg>
                 </div>
                 <div className='pl-4'>
-                  <p className='text-base/relaxed font-medium drop-shadow-sm'>Efficiency & Reliability</p>
-                  <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Count on us for efficient and reliable registration services, delivered with a commitment to your success.</p>
+                  <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Efficiency & Reliability</p>
+                  <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Count on us for efficient and reliable registration services, delivered with a commitment to your success.</p>
                 </div>
               </div>
               
