@@ -47,9 +47,9 @@ const Grant = () => {
           initial = 'initial'
           animate='animate'
           className='md:px-20 md:pr-40 p-7'>
-            <p className='text-base/relaxed font-normal text-gray-500 text-center drop-shadow-sm'>Our Services</p>
-            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold drop-shadow-sm'>Government Grant Application Assistance––</p>
-            <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Our comprehensive services will navigate the complexities of your government grant applications</p>
+            <p className='text-base/relaxed font-normal text-gray-500 text-center md:drop-shadow-sm'>Our Services</p>
+            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Government Grant Application Assistance––</p>
+            <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Our comprehensive services will navigate the complexities of your government grant applications</p>
             
             <div className='flex px-4 pt-4'>
               <div class="flex items-center justify-center w-6 h-6 bg-pink-200 rounded-full mt-1">
@@ -58,8 +58,8 @@ const Grant = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Grant Identification</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Helping you identify relevant government grants aligned with your organisation's goals.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Grant Identification</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Helping you identify relevant government grants aligned with your organisation's goals.</p>
               </div>
             </div>
 
@@ -70,8 +70,8 @@ const Grant = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Application Preparation</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Crafting compelling grant applications that highlight your organisation's strengths and objectives.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Application Preparation</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Crafting compelling grant applications that highlight your organisation's strengths and objectives.</p>
               </div>
             </div>
 
@@ -82,8 +82,8 @@ const Grant = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Budgeting and Financial Planning</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Strategic financial planning to align your budget with grant requirements.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Budgeting and Financial Planning</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Strategic financial planning to align your budget with grant requirements.</p>
               </div>
             </div>
           </motion.div>
@@ -91,9 +91,9 @@ const Grant = () => {
         
         <div className='md:grid md:grid-cols-2 flex flex-col-reverse items-center bg-sky-100'>
           <div className='md:px-20 md:pl-28 p-7'>
-            <p className='text-base/relaxed font-normal text-gray-500 text-center drop-shadow-sm'>Our Services</p>
-            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold drop-shadow-sm'>Compliance and Reporting––</p>
-            <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Stay compliant and fulfill reporting obligations seamlessly with our assistance</p>
+            <p className='text-base/relaxed font-normal text-gray-500 text-center md:drop-shadow-sm'>Our Services</p>
+            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Compliance and Reporting––</p>
+            <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Stay compliant and fulfill reporting obligations seamlessly with our assistance</p>
             <div className='flex px-4 pt-4'>
               <div class="flex items-center justify-center w-6 h-6 bg-emerald-300 rounded-full mt-1">
                 <svg class="w-6 h-6 text-stone-600 opacity-60 p-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -101,8 +101,8 @@ const Grant = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Grant Compliance</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Ensuring your organisation meets all stipulated grant compliance requirements.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Grant Compliance</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Ensuring your organisation meets all stipulated grant compliance requirements.</p>
               </div>
             </div>
 
@@ -113,8 +113,8 @@ const Grant = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Reporting Assistance</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Providing support in compiling and submitting accurate and timely grant reports.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Reporting Assistance</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Providing support in compiling and submitting accurate and timely grant reports.</p>
               </div>
             </div>
             
@@ -137,9 +137,9 @@ const Grant = () => {
               ></Image>
           </div>
           <div className='md:px-20 md:pr-40 p-7'>
-            <p className='text-base/relaxed font-normal text-gray-500 text-center drop-shadow-sm'>Our Services</p>
-            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold drop-shadow-sm'>Grant Strategy and Planning––</p>
-            <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Optimise your grant-seeking strategy with our strategic planning services</p>
+            <p className='text-base/relaxed font-normal text-gray-500 text-center md:drop-shadow-sm'>Our Services</p>
+            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Grant Strategy and Planning––</p>
+            <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Optimise your grant-seeking strategy with our strategic planning services</p>
             
             <div className='flex px-4 pt-4'>
               <div class="flex items-center justify-center w-6 h-6 bg-pink-200 rounded-full mt-1">
@@ -148,8 +148,8 @@ const Grant = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Grant Strategy Development</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Tailoring a comprehensive strategy to maximize your chances of grant success.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Grant Strategy Development</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Tailoring a comprehensive strategy to maximize your chances of grant success.</p>
               </div>
             </div>
 
@@ -160,8 +160,8 @@ const Grant = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Capacity Building</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Empowering your team with the knowledge and skills needed for successful grant applications.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Capacity Building</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Empowering your team with the knowledge and skills needed for successful grant applications.</p>
               </div>
             </div>
             
@@ -184,8 +184,8 @@ const Grant = () => {
                   </svg>
                 </div>
                 <div className='pl-4'>
-                  <p className='text-base/relaxed font-medium drop-shadow-sm'>Grant Experts</p>
-                  <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Our team brings extensive experience in successfully securing government grants across various industries.</p>
+                  <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Grant Experts</p>
+                  <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Our team brings extensive experience in successfully securing government grants across various industries.</p>
                 </div>
               </div>
 
@@ -196,8 +196,8 @@ const Grant = () => {
                   </svg>
                 </div>
                 <div className='pl-4'>
-                  <p className='text-base/relaxed font-medium drop-shadow-sm'>Tailored Solutions</p>
-                  <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>We understand that each organisation is unique. Our services are tailored to meet your specific needs and objectives.</p>
+                  <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Tailored Solutions</p>
+                  <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>We understand that each organisation is unique. Our services are tailored to meet your specific needs and objectives.</p>
                 </div>
               </div>
 
@@ -208,8 +208,8 @@ const Grant = () => {
                   </svg>
                 </div>
                 <div className='pl-4'>
-                  <p className='text-base/relaxed font-medium drop-shadow-sm'>Commitment to Your Success</p>
-                  <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>We are dedicated to helping your organisation thrive through successful grant applications.</p>
+                  <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Commitment to Your Success</p>
+                  <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>We are dedicated to helping your organisation thrive through successful grant applications.</p>
                 </div>
               </div>
               
