@@ -47,9 +47,9 @@ const Planning = () => {
           initial = 'initial'
           animate='animate'
           className='md:px-20 md:pr-40 p-7'>
-            <p className='text-base/relaxed font-normal text-gray-500 text-center drop-shadow-sm'>Our Services</p>
-            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold drop-shadow-sm'>Strategic Financial Planning––</p>
-            <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Our financial planning services will navigate the financial landscape for your business success</p>
+            <p className='text-base/relaxed font-normal text-gray-500 text-center md:drop-shadow-sm'>Our Services</p>
+            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Strategic Financial Planning––</p>
+            <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Our financial planning services will navigate the financial landscape for your business success</p>
             
             <div className='flex px-4 pt-4'>
               <div class="flex items-center justify-center w-6 h-6 bg-pink-200 rounded-full mt-1">
@@ -58,8 +58,8 @@ const Planning = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Business Financial Assessment</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>In-depth analysis of your current financial position and future goals.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Business Financial Assessment</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>In-depth analysis of your current financial position and future goals.</p>
               </div>
             </div>
 
@@ -70,8 +70,8 @@ const Planning = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Customised Financial Strategies</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Tailored plans to optimise your financial resources and enhance profitability.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Customised Financial Strategies</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Tailored plans to optimise your financial resources and enhance profitability.</p>
               </div>
             </div>
 
@@ -82,8 +82,8 @@ const Planning = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Risk Management</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Identification and mitigation of potential financial risks to safeguard your business.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Risk Management</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Identification and mitigation of potential financial risks to safeguard your business.</p>
               </div>
             </div>
           </motion.div>
@@ -91,9 +91,9 @@ const Planning = () => {
         
         <div className='md:grid md:grid-cols-2 flex flex-col-reverse items-center bg-sky-100'>
           <div className='md:px-20 md:pl-28 p-7'>
-            <p className='text-base/relaxed font-normal text-gray-500 text-center drop-shadow-sm'>Our Services</p>
-            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold drop-shadow-sm'>Retirement Planning for Business Owners––</p>
-            <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Our retirement planning services will offer securing your financial future</p>
+            <p className='text-base/relaxed font-normal text-gray-500 text-center md:drop-shadow-sm'>Our Services</p>
+            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Retirement Planning for Business Owners––</p>
+            <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Our retirement planning services will offer securing your financial future</p>
             <div className='flex px-4 pt-4'>
               <div class="flex items-center justify-center w-6 h-6 bg-emerald-300 rounded-full mt-1">
                 <svg class="w-6 h-6 text-stone-600 opacity-60 p-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -101,8 +101,8 @@ const Planning = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Personalised Retirement Plans</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Customised strategies to ensure a comfortable retirement for business owners.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Personalised Retirement Plans</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Customised strategies to ensure a comfortable retirement for business owners.</p>
               </div>
             </div>
 
@@ -113,8 +113,8 @@ const Planning = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Superannuation Guidance</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Expert advice on managing and maximising superannuation benefits.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Superannuation Guidance</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Expert advice on managing and maximising superannuation benefits.</p>
               </div>
             </div>
             
@@ -137,9 +137,9 @@ const Planning = () => {
               ></Image>
           </div>
           <div className='md:px-20 md:pr-40 p-7'>
-            <p className='text-base/relaxed font-normal text-gray-500 text-center drop-shadow-sm'>Our Services</p>
-            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold drop-shadow-sm'>Succession Planning––</p>
-            <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Our succession planning services will plan for your business's future</p>
+            <p className='text-base/relaxed font-normal text-gray-500 text-center md:drop-shadow-sm'>Our Services</p>
+            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Succession Planning––</p>
+            <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Our succession planning services will plan for your business's future</p>
             
             <div className='flex px-4 pt-4'>
               <div class="flex items-center justify-center w-6 h-6 bg-pink-200 rounded-full mt-1">
@@ -148,8 +148,8 @@ const Planning = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Business Transition Strategies</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Smooth and effective plans for passing on or selling your business.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Business Transition Strategies</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Smooth and effective plans for passing on or selling your business.</p>
               </div>
             </div>
 
@@ -160,8 +160,8 @@ const Planning = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Estate Planning</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Ensuring your business assets are passed on seamlessly.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Estate Planning</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Ensuring your business assets are passed on seamlessly.</p>
               </div>
             </div>
             
@@ -184,8 +184,8 @@ const Planning = () => {
                   </svg>
                 </div>
                 <div className='pl-4'>
-                  <p className='text-base/relaxed font-medium drop-shadow-sm'>Industry Expertise</p>
-                  <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Our team brings extensive experience in financial planning for businesses across various industries.</p>
+                  <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Industry Expertise</p>
+                  <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Our team brings extensive experience in financial planning for businesses across various industries.</p>
                 </div>
               </div>
 
@@ -196,8 +196,8 @@ const Planning = () => {
                   </svg>
                 </div>
                 <div className='pl-4'>
-                  <p className='text-base/relaxed font-medium drop-shadow-sm'>Personalised Service</p>
-                  <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>We understand that every business is unique. Our solutions are tailored to meet your specific needs.</p>
+                  <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Personalised Service</p>
+                  <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>We understand that every business is unique. Our solutions are tailored to meet your specific needs.</p>
                 </div>
               </div>
 
@@ -208,8 +208,8 @@ const Planning = () => {
                   </svg>
                 </div>
                 <div className='pl-4'>
-                  <p className='text-base/relaxed font-medium drop-shadow-sm'>Commitment to Success</p>
-                  <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>We are dedicated to the success and financial well-being of your business.</p>
+                  <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Commitment to Success</p>
+                  <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>We are dedicated to the success and financial well-being of your business.</p>
                 </div>
               </div>
               
