@@ -115,7 +115,7 @@ const Footer = () => {
             <Link href="/" className='text-l/snug font-normal text-sky-700 leading-10'>Home</Link>
             <Link href="/" className='text-l/snug font-normal text-gray-500 leading-10'>Services</Link>
             {/* <Link href="/" className='text-l/snug font-normal text-gray-500 leading-10'>About</Link> */}
-            <Link href="/" className='text-l/snug font-normal text-gray-500 leading-10'>Pricing</Link>
+            <Link href="/Pricing" className='text-l/snug font-normal text-gray-500 leading-10'>Pricing</Link>
             <Link href="/FAQs" className='text-l/snug font-normal text-gray-500 leading-10'>FAQs</Link>
             <Link href="/Privacy-Policy" className='text-l/snug font-normal text-gray-500 leading-10'>Privacy Policy</Link>
           </motion.div>
