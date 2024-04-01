@@ -7,6 +7,7 @@ import { Container, Section } from '@radix-ui/themes';
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from "framer-motion";
+import Whatsapp from '../components/Whatsapp';
 
 const Tax = () => {
   
@@ -14,6 +15,7 @@ const Tax = () => {
     <div>
       <Navbar />
       <Scroll_to_top />
+      <Whatsapp />
       <div className='py-5'>
         <div className='flex flex-col text-center justify-center bg-sky-50 md:pt-24 py-10 md:pb-12 px-7'>
           <p className='text-2xl/snug md:text-3xl/loose font-semibold'>
@@ -46,9 +48,9 @@ const Tax = () => {
           initial = 'initial'
           animate='animate'
           className='md:px-20 md:pr-40 p-7'>
-            <p className='text-base/relaxed font-normal text-gray-500 text-center drop-shadow-sm'>Our Services</p>
-            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold drop-shadow-sm'>Personalised Tax Services––</p>
-            <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Our seasoned tax professionals are here to guide you</p>
+            <p className='text-base/relaxed font-normal text-gray-500 text-center md:drop-shadow-sm'>Our Services</p>
+            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Personalised Tax Services––</p>
+            <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Our seasoned tax professionals are here to guide you</p>
             
             <div className='flex px-4 pt-4'>
               <div class="flex items-center justify-center w-6 h-6 bg-pink-200 rounded-full mt-1">
@@ -57,8 +59,8 @@ const Tax = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Individual Tax Preparation</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Precise preparation of your individual tax returns.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Individual Tax Preparation</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Precise preparation of your individual tax returns.</p>
               </div>
             </div>
 
@@ -69,8 +71,8 @@ const Tax = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Tax Planning</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Strategic planning to optimise your financial position and minimise tax liabilities.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Tax Planning</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Strategic planning to optimise your financial position and minimise tax liabilities.</p>
               </div>
             </div>
 
@@ -81,8 +83,8 @@ const Tax = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Estate and Inheritance Tax</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Comprehensive assistance with estate and inheritance tax matters.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Estate and Inheritance Tax</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Comprehensive assistance with estate and inheritance tax matters.</p>
               </div>
             </div>
           </motion.div>
@@ -90,9 +92,9 @@ const Tax = () => {
         
         <div className='md:grid md:grid-cols-2 flex flex-col-reverse items-center bg-sky-100'>
           <div className='md:px-20 md:pl-28 p-7'>
-            <p className='text-base/relaxed font-normal text-gray-500 text-center drop-shadow-sm pt-5'>Our Services</p>
-            <p className='text-2xl/relaxed md:text-3xl/relaxed font-semibold drop-shadow-sm'>Tailored Business Tax Services––</p>
-            <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Our team specialises in providing tailored tax services for businesses</p>
+            <p className='text-base/relaxed font-normal text-gray-500 text-center md:drop-shadow-sm pt-5'>Our Services</p>
+            <p className='text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Tailored Business Tax Services––</p>
+            <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Our team specialises in providing tailored tax services for businesses</p>
             
             <div className='flex px-4 pt-4'>
               <div class="flex items-center justify-center w-6 h-6 bg-emerald-300 rounded-full mt-1">
@@ -101,8 +103,8 @@ const Tax = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Business Tax Preparation</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Timely and precise preparation of business tax returns.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Business Tax Preparation</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Timely and precise preparation of business tax returns.</p>
               </div>
             </div>
 
@@ -113,8 +115,8 @@ const Tax = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Tax Compliance</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Ensuring your business stays compliant with ever-evolving tax regulations.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Tax Compliance</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Ensuring your business stays compliant with ever-evolving tax regulations.</p>
               </div>
             </div>
 
@@ -125,8 +127,8 @@ const Tax = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Strategic Tax Planning</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Proactive planning to help your business achieve its financial goals.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Strategic Tax Planning</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Proactive planning to help your business achieve its financial goals.</p>
               </div>
             </div>
           </div>
@@ -147,9 +149,9 @@ const Tax = () => {
               ></Image>
           </div>
           <div className='md:px-20 md:pr-40 p-7'>
-            <p className='text-base/relaxed font-normal text-gray-500 text-center drop-shadow-sm pt-5'>Our Services</p>
-            <p className='text-2xl/relaxed md:text-3xl/relaxed font-semibold drop-shadow-sm'>Expert Consultancy & Advisory––</p>
-            <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Consultancy services to help individuals and businesses make informed financial decisions</p>
+            <p className='text-base/relaxed font-normal text-gray-500 text-center md:drop-shadow-sm pt-5'>Our Services</p>
+            <p className='text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Expert Consultancy & Advisory––</p>
+            <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Consultancy services to help individuals and businesses make informed financial decisions</p>
             
             <div className='flex px-4 pt-4'>
               <div class="flex items-center justify-center w-6 h-6 bg-pink-200 rounded-full mt-1">
@@ -158,8 +160,8 @@ const Tax = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Financial Consultation</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Expert guidance on financial matters, tailored to your unique circumstances.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Financial Consultation</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Expert guidance on financial matters, tailored to your unique circumstances.</p>
               </div>
             </div>
 
@@ -170,8 +172,8 @@ const Tax = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Tax Optimization Strategies</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Developing strategies to optimise your tax position and enhance financial efficiency.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Tax Optimization Strategies</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Developing strategies to optimise your tax position and enhance financial efficiency.</p>
               </div>
             </div>
 
@@ -182,8 +184,8 @@ const Tax = () => {
                 </svg>
               </div>
               <div className='pl-4'>
-                <p className='text-base/relaxed font-medium drop-shadow-sm'>Representation</p>
-                <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Advocating for clients in dealings with tax authorities, ensuring compliance and resolution.</p>
+                <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Representation</p>
+                <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Advocating for clients in dealings with tax authorities, ensuring compliance and resolution.</p>
               </div>
             </div>
           </div>
@@ -205,8 +207,8 @@ const Tax = () => {
                   </svg>
                 </div>
                 <div className='pl-4'>
-                  <p className='text-base/relaxed font-medium drop-shadow-sm'>Expertise</p>
-                  <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Our team comprises seasoned tax professionals with a wealth of experience in tax planning, preparation, and advisory services.</p>
+                  <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Expertise</p>
+                  <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Our team comprises seasoned tax professionals with a wealth of experience in tax planning, preparation, and advisory services.</p>
                 </div>
               </div>
 
@@ -217,8 +219,8 @@ const Tax = () => {
                   </svg>
                 </div>
                 <div className='pl-4'>
-                  <p className='text-base/relaxed font-medium drop-shadow-sm'>Personalised Service</p>
-                  <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>We understand that each client is unique. Our approach is personalised to meet your specific needs and goals.</p>
+                  <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Personalised Service</p>
+                  <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>We understand that each client is unique. Our approach is personalised to meet your specific needs and goals.</p>
                 </div>
               </div>
 
@@ -229,8 +231,8 @@ const Tax = () => {
                   </svg>
                 </div>
                 <div className='pl-4'>
-                  <p className='text-base/relaxed font-medium drop-shadow-sm'>Reliability</p>
-                  <p className='text-base/relaxed font-normal text-gray-500 drop-shadow-sm'>Trust is the foundation of our client relationships. You can rely on us for accuracy, timeliness, and confidentiality.</p>
+                  <p className='text-base/relaxed font-medium md:drop-shadow-sm'>Reliability</p>
+                  <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Trust is the foundation of our client relationships. You can rely on us for accuracy, timeliness, and confidentiality.</p>
                 </div>
               </div>
               

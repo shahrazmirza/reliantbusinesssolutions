@@ -5,12 +5,14 @@ import Scroll_to_top from '../components/Scroll_to_top'
 import Footer from '../components/Footer'
 import { Container, Table } from '@radix-ui/themes'
 import Link from 'next/link';
+import Whatsapp from '../components/Whatsapp'
 
 const Pricing = () => {
   return (
     <div>
       <Navbar />
       <Scroll_to_top />
+      <Whatsapp />
       <div className='py-5'>
         <div className='flex flex-col text-center justify-center bg-sky-50 pt-24 pb-12'>
           <p className='text-2xl/snug md:text-3xl/loose font-semibold'>

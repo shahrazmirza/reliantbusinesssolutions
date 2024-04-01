@@ -9,12 +9,14 @@ import accordionData from '../Data/AccordionData.json';
 import accordionData2 from '../Data/AccordionData2.json';
 import Link from 'next/link';
 import { motion } from "framer-motion";
+import Whatsapp from '../components/Whatsapp'
 
 const FAQs = () => {
   return (
     <div>
       <Navbar />
       <Scroll_to_top />
+      <Whatsapp />
       <div className='py-5'>
         <div className='flex flex-col text-center justify-center bg-sky-50 pt-24 pb-12'>
           <p className='text-2xl/snug md:text-3xl/loose font-semibold'>
@@ -43,7 +45,7 @@ const FAQs = () => {
               }}
               initial = 'initial'
               animate='animate'
-              className='pt-5 pb-5'>
+              className='pt-5 pb-5 px-7'>
                 <div>
                   {accordionData.map(({ id, title, content }) => (
                     <Accordion key={id} title={title} content={content} />

@@ -61,7 +61,7 @@ const Faq = () => {
               ))}
             </div>
           </motion.div>
-          <div className='flex justify-center'>
+          <div className='md:flex md:text-start text-center justify-center'>
             <p className='text-xl/snug font-normal mr-1 '>
             Didn’t answer your questions?
             </p>

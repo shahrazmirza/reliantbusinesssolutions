@@ -41,11 +41,12 @@ const Scroll_to_top = () => {
 
   return (
     <button variants={jump}
-      className={`fixed w-12 h-12 text-center flex items-center justify-center bottom-4 right-4 bg-sky-700 text-white p-2 rounded-full transition-opacity ${
+      className={`fixed md:w-14 md:h-14 w-12 h-12 text-center flex items-center justify-center right-7 md:bottom-24 bottom-20 bg-sky-700 text-white p-0 rounded-full transition-opacity ${
         isVisible ? 'opacity-80' : 'opacity-0'
       }`}
         onClick={scrollToTop}
-      ><ArrowUpIcon />
+      >
+        <ArrowUpIcon className='md:w-6 md:h-6'/>
     </button>
   );
 };
