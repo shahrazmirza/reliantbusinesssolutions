@@ -22,7 +22,7 @@ const Privacy = () => {
           <p className='text-xl font-normal text-gray-500 leading-relaxed'>Our website address is: https://www.reliantbusinesssolutions.com.au.</p>
           <br></br>
           <p className='text-3xl font-light leading-relaxed'>COMMENTS</p>  
-          <p className='text-xl font-normal text-gray-500 leading-relaxed'>When visitors leave comments on the site we collect the data shown in the comments form, and also the visitorâs IP address and browser user agent string to help spam detection.</p>
+          <p className='text-xl font-normal text-gray-500 leading-relaxed'>When visitors leave comments on the site we collect the data shown in the comments form, and also the visitor’s IP address and browser user agent string to help spam detection.</p>
           <br></br>
           <p className='text-xl font-normal text-gray-500 leading-relaxed'>An anonymized string created from your email address (also called a hash) may be provided to the Gravatar service to see if you are using it. The Gravatar service privacy policy is available here: https://automattic.com/privacy/. After approval of your comment, your profile picture is visible to the public in the context of your comment.</p> 
           <br></br> 
@@ -36,7 +36,7 @@ const Privacy = () => {
           If you visit our login page, we will set a temporary cookie to determine if your browser accepts cookies. This cookie contains no personal data and is discarded when you close your browser.
           <br></br>
           <br></br>
-          When you log in, we will also set up several cookies to save your login information and your screen display choices. Login cookies last for two days, and screen options cookies last for a year. If you select âRemember Meâ, your login will persist for two weeks. If you log out of your account, the login cookies will be removed.
+          When you log in, we will also set up several cookies to save your login information and your screen display choices. Login cookies last for two days, and screen options cookies last for a year. If you select “Remember Me”, your login will persist for two weeks. If you log out of your account, the login cookies will be removed.
           <br></br>
           <br></br>
           If you edit or publish an article, an additional cookie will be saved in your browser. This cookie includes no personal data and simply indicates the post ID of the article you just edited. It expires after 1 day.

@@ -49,7 +49,7 @@ const Tax = () => {
           animate='animate'
           className='md:px-20 md:pr-40 p-7'>
             <p className='text-base/relaxed font-normal text-gray-500 text-center md:drop-shadow-sm'>Our Services</p>
-            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Personalised Tax Servicesââ</p>
+            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Personalised Tax Services––</p>
             <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Our seasoned tax professionals are here to guide you</p>
             
             <div className='flex px-4 pt-4'>
@@ -93,7 +93,7 @@ const Tax = () => {
         <div className='md:grid md:grid-cols-2 flex flex-col-reverse items-center bg-sky-100'>
           <div className='md:px-20 md:pl-28 p-7'>
             <p className='text-base/relaxed font-normal text-gray-500 text-center md:drop-shadow-sm pt-5'>Our Services</p>
-            <p className='text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Tailored Business Tax Servicesââ</p>
+            <p className='text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Tailored Business Tax Services––</p>
             <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Our team specialises in providing tailored tax services for businesses</p>
             
             <div className='flex px-4 pt-4'>
@@ -150,7 +150,7 @@ const Tax = () => {
           </div>
           <div className='md:px-20 md:pr-40 p-7'>
             <p className='text-base/relaxed font-normal text-gray-500 text-center md:drop-shadow-sm pt-5'>Our Services</p>
-            <p className='text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Expert Consultancy & Advisoryââ</p>
+            <p className='text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Expert Consultancy & Advisory––</p>
             <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Consultancy services to help individuals and businesses make informed financial decisions</p>
             
             <div className='flex px-4 pt-4'>

@@ -172,7 +172,7 @@ const Pricing = () => {
 
           <div className='md:flex justify-center text-center py-10 px-7'>
             <p className='text-lg/snug font-normal md:text-xl/snug md:font-normal mr-1 '>
-            Didnât find what you were looking for?
+            Didn’t find what you were looking for?
             </p>
             <span>   </span>
             <Link className='text-lg/snug font-normal md:text-xl/snug md:font-normal text-sky-700' href="/Contact">

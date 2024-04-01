@@ -48,7 +48,7 @@ const Registrations = () => {
           animate='animate'
           className='md:px-20 md:pr-40 p-7'>
             <p className='text-base/relaxed font-normal text-gray-500 text-center md:drop-shadow-sm'>Our Services</p>
-            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Business Registration Servicesââ</p>
+            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Business Registration Services––</p>
             <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Our services will navigate the complexities of business registration in establishing your venture</p>
             
             <div className='flex px-4 pt-4'>
@@ -92,7 +92,7 @@ const Registrations = () => {
         <div className='md:grid md:grid-cols-2 flex flex-col-reverse items-center bg-sky-100'>
           <div className='md:px-20 md:pl-28 p-7'>
             <p className='text-base/relaxed font-normal text-gray-500 text-center md:drop-shadow-sm'>Our Services</p>
-            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Charity Registration and DGR Status Applicationââ</p>
+            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Charity Registration and DGR Status Application––</p>
             <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>For organisations with a charitable mission, our services extend to charity registration and DGR (Deductible Gift Recipient) status application</p>
             <div className='flex px-4 pt-4'>
               <div class="flex items-center justify-center w-6 h-6 bg-emerald-300 rounded-full mt-1">
@@ -138,7 +138,7 @@ const Registrations = () => {
           </div>
           <div className='md:px-20 md:pr-40 p-7'>
             <p className='text-base/relaxed font-normal text-gray-500 text-center md:drop-shadow-sm'>Our Services</p>
-            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Ongoing Compliance Supportââ</p>
+            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Ongoing Compliance Support––</p>
             <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>We go beyond registration to offer ongoing compliance support</p>
             
             <div className='flex px-4 pt-4'>
