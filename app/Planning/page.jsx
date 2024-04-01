@@ -48,7 +48,7 @@ const Planning = () => {
           animate='animate'
           className='md:px-20 md:pr-40 p-7'>
             <p className='text-base/relaxed font-normal text-gray-500 text-center md:drop-shadow-sm'>Our Services</p>
-            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Strategic Financial Planning––</p>
+            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Strategic Financial Planningââ</p>
             <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Our financial planning services will navigate the financial landscape for your business success</p>
             
             <div className='flex px-4 pt-4'>
@@ -92,7 +92,7 @@ const Planning = () => {
         <div className='md:grid md:grid-cols-2 flex flex-col-reverse items-center bg-sky-100'>
           <div className='md:px-20 md:pl-28 p-7'>
             <p className='text-base/relaxed font-normal text-gray-500 text-center md:drop-shadow-sm'>Our Services</p>
-            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Retirement Planning for Business Owners––</p>
+            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Retirement Planning for Business Ownersââ</p>
             <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Our retirement planning services will offer securing your financial future</p>
             <div className='flex px-4 pt-4'>
               <div class="flex items-center justify-center w-6 h-6 bg-emerald-300 rounded-full mt-1">
@@ -138,7 +138,7 @@ const Planning = () => {
           </div>
           <div className='md:px-20 md:pr-40 p-7'>
             <p className='text-base/relaxed font-normal text-gray-500 text-center md:drop-shadow-sm'>Our Services</p>
-            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Succession Planning––</p>
+            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Succession Planningââ</p>
             <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Our succession planning services will plan for your business's future</p>
             
             <div className='flex px-4 pt-4'>

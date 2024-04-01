@@ -48,7 +48,7 @@ const NDIS = () => {
           animate='animate'
           className='md:px-20 md:pr-40 p-7'>
             <p className='text-base/relaxed font-normal text-gray-500 text-center md:drop-shadow-sm'>Our Services</p>
-            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>NDIS Plan Management––</p>
+            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>NDIS Plan Managementââ</p>
             <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Our services will navigate the complexities of NDIS plan management for you</p>
             
             <div className='flex px-4 pt-4'>
@@ -92,7 +92,7 @@ const NDIS = () => {
         <div className='md:grid md:grid-cols-2 flex flex-col-reverse items-center bg-sky-100'>
           <div className='md:px-20 md:pl-28 p-7'>
             <p className='text-base/relaxed font-normal text-gray-500 text-center md:drop-shadow-sm'>Our Services</p>
-            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Client Support & Advocacy––</p>
+            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Client Support & Advocacyââ</p>
             <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>We go beyond numbers to provide support and advocacy for our clients</p>
             <div className='flex px-4 pt-4'>
               <div class="flex items-center justify-center w-6 h-6 bg-emerald-300 rounded-full mt-1">
@@ -138,7 +138,7 @@ const NDIS = () => {
           </div>
           <div className='md:px-20 md:pr-40 p-7'>
             <p className='text-base/relaxed font-normal text-gray-500 text-center md:drop-shadow-sm'>Our Services</p>
-            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Compliance and Training––</p>
+            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Compliance and Trainingââ</p>
             <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Stay compliant and up-to-date with our compliance and training services</p>
             
             <div className='flex px-4 pt-4'>

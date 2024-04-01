@@ -48,7 +48,7 @@ const Grant = () => {
           animate='animate'
           className='md:px-20 md:pr-40 p-7'>
             <p className='text-base/relaxed font-normal text-gray-500 text-center md:drop-shadow-sm'>Our Services</p>
-            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Government Grant Application Assistance––</p>
+            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Government Grant Application Assistanceââ</p>
             <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Our comprehensive services will navigate the complexities of your government grant applications</p>
             
             <div className='flex px-4 pt-4'>
@@ -92,7 +92,7 @@ const Grant = () => {
         <div className='md:grid md:grid-cols-2 flex flex-col-reverse items-center bg-sky-100'>
           <div className='md:px-20 md:pl-28 p-7'>
             <p className='text-base/relaxed font-normal text-gray-500 text-center md:drop-shadow-sm'>Our Services</p>
-            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Compliance and Reporting––</p>
+            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Compliance and Reportingââ</p>
             <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Stay compliant and fulfill reporting obligations seamlessly with our assistance</p>
             <div className='flex px-4 pt-4'>
               <div class="flex items-center justify-center w-6 h-6 bg-emerald-300 rounded-full mt-1">
@@ -138,7 +138,7 @@ const Grant = () => {
           </div>
           <div className='md:px-20 md:pr-40 p-7'>
             <p className='text-base/relaxed font-normal text-gray-500 text-center md:drop-shadow-sm'>Our Services</p>
-            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Grant Strategy and Planning––</p>
+            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Grant Strategy and Planningââ</p>
             <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Optimise your grant-seeking strategy with our strategic planning services</p>
             
             <div className='flex px-4 pt-4'>
