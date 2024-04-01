@@ -48,7 +48,7 @@ const Accounting = () => {
           animate='animate'
           className='md:px-20 md:pr-40 p-7'>
             <p className='text-base/relaxed font-normal text-gray-500 text-center md:drop-shadow-sm'>Our Services</p>
-            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Business Startup Accountingââ</p>
+            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Business Startup Accounting––</p>
             <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Our specialised business startup accounting services are here to help you</p>
             
             <div className='flex px-4 pt-4'>
@@ -92,7 +92,7 @@ const Accounting = () => {
         <div className='md:grid md:grid-cols-2 flex flex-col-reverse items-center bg-sky-100'>
           <div className='md:px-20 md:pl-28 p-7'>
             <p className='text-base/relaxed font-normal text-gray-500 text-center md:drop-shadow-sm'>Our Services</p>
-            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Comprehensive Bookkeepingââ</p>
+            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Comprehensive Bookkeeping––</p>
             <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>Our bookkeeping services will keep your financial records in order</p>
             <div className='flex px-4 pt-4'>
               <div class="flex items-center justify-center w-6 h-6 bg-emerald-300 rounded-full mt-1">
@@ -149,7 +149,7 @@ const Accounting = () => {
           </div>
           <div className='md:px-20 md:pr-40 p-7'>
             <p className='text-base/relaxed font-normal text-gray-500 text-center md:drop-shadow-sm'>Our Services</p>
-            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Ongoing Supportââ</p>
+            <p className='text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm'>Ongoing Support––</p>
             <p className='text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm'>We're more than just numbers. Reliant Business Solutions offers ongoing support to help your business thrive</p>
             
             <div className='flex px-4 pt-4'>
