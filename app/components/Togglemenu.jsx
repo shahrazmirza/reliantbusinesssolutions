@@ -45,7 +45,7 @@ function Togglemenu() {
             />
           </Link>
         </div>
-        <button className='flex text-sky-700 bg-sky-50 justify-center w-12 h-14 pt-6' onClick={toggleDiv}>
+        <button className='flex text-sky-700 bg-sky-50 justify-center w-12 h-14 pt-5' onClick={toggleDiv}>
         {showDiv ? <Cross1Icon /> : <HamburgerMenuIcon />}
         </button>
       </div>
