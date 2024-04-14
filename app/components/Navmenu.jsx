@@ -27,7 +27,14 @@ const Navmenu = () => {
   return (
     <div className='fixed top-0 left-0 right-0 z-10'>
       <div className='bg-gray-800 text-white text-sm h-6 flex justify-center items-center'>
-        <p className='tracking-widest animate__animated animate__flash animate__infinite animate__slower'>50% Discount to Students and Healthcare Workers on Tax Services</p>
+        <div className='tracking-widest animate__animated animate__flash animate__infinite animate__slower flex gap-3'>
+          <p>50% Discount on Tax Services to</p>
+          <p className='text-yellow-500'>Students</p>
+          <p>|</p>
+          <p className='text-yellow-500'>Retail Staff</p>
+          <p>|</p>
+          <p className='text-yellow-500'>Healthcare Workers</p>
+        </div>
       </div>
       <div className='bg-white h-14'></div>
       <Container className='-mt-14'>
