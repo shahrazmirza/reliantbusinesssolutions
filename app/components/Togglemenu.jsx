@@ -42,7 +42,7 @@ function Togglemenu() {
             />
           </Link>
         </div>
-        <button className='flex text-sky-700 bg-sky-50 justify-center w-12 h-16 pt-6' onClick={toggleDiv}>
+        <button className='flex text-sky-700 bg-sky-50 justify-center w-12 h-14 pt-6' onClick={toggleDiv}>
         {showDiv ? <Cross1Icon /> : <HamburgerMenuIcon />}
         </button>
       </div>
@@ -97,6 +97,9 @@ function Togglemenu() {
         </div>
       </div>
       }
+      <div className='bg-gray-800 text-white text-xs h-6 flex justify-center items-center mt-6'>
+        <p className='animate__animated animate__flash animate__infinite animate__slower'>50% Discount to Students and Healthcare Workers on Tax Services</p>
+      </div>
     </div>
   );
 }

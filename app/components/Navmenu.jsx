@@ -9,6 +9,8 @@ import { Container } from '@radix-ui/themes';
 import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from "framer-motion"
+import 'animate.css';
+
 
 const Navmenu = () => {
   const [items, setItems] = useState([]);
@@ -97,6 +99,9 @@ const Navmenu = () => {
           </div>
         </div>
       </Container>
+      <div className='bg-gray-800 text-white text-sm h-6 flex justify-center items-center'>
+        <p className='tracking-widest animate__animated animate__flash animate__infinite animate__slower'>50% Discount to Students and Healthcare Workers on Tax Services</p>
+      </div>
     </div>
   );
 };
