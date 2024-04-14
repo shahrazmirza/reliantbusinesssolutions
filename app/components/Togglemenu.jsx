@@ -30,6 +30,9 @@ function Togglemenu() {
 
   return (
     <div>
+      <div className='bg-gray-800 text-white text-xs h-6 flex justify-center items-center'>
+        <p className='animate__animated animate__flash animate__infinite animate__slower'>50% Discount to Students and Healthcare Workers on Tax Services</p>
+      </div>
       <div className='flex justify-between h-10 items-center pt-5 pl-5'>
         <div className=''>
           <Link href="/">
@@ -97,9 +100,6 @@ function Togglemenu() {
         </div>
       </div>
       }
-      <div className='bg-gray-800 text-white text-xs h-6 flex justify-center items-center mt-6'>
-        <p className='animate__animated animate__flash animate__infinite animate__slower'>50% Discount to Students and Healthcare Workers on Tax Services</p>
-      </div>
     </div>
   );
 }

@@ -26,6 +26,9 @@ const Navmenu = () => {
   }, []);
   return (
     <div className='fixed top-0 left-0 right-0 z-10'>
+      <div className='bg-gray-800 text-white text-sm h-6 flex justify-center items-center'>
+        <p className='tracking-widest animate__animated animate__flash animate__infinite animate__slower'>50% Discount to Students and Healthcare Workers on Tax Services</p>
+      </div>
       <div className='bg-white h-14'></div>
       <Container className='-mt-14'>
         <div className='flex justify-between leading-8 py-2'>
@@ -99,9 +102,6 @@ const Navmenu = () => {
           </div>
         </div>
       </Container>
-      <div className='bg-gray-800 text-white text-sm h-6 flex justify-center items-center'>
-        <p className='tracking-widest animate__animated animate__flash animate__infinite animate__slower'>50% Discount to Students and Healthcare Workers on Tax Services</p>
-      </div>
     </div>
   );
 };
