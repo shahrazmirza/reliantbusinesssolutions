@@ -30,9 +30,9 @@ function Togglemenu() {
 
   return (
     <div>
-      <div className='bg-gray-800 text-white text-xs h-9 flex justify-center items-center text-center'>
+      <div className='bg-gray-800 text-white text-xs h-11 flex justify-center text-center'>
         <div className='tracking-widest animate__animated animate__flash animate__infinite animate__slower'>
-          <p>50% Discount on Tax Services to </p> 
+          <p className='text-lg'>50% Discount on Tax Services to </p> 
           <div className='flex gap-2'>
             <p className='text-yellow-500'>Students</p>
             <p>|</p>
