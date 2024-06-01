@@ -1,5 +1,5 @@
-'use client'
-import React, { useState } from 'react';
+"use client";
+import React, { useState } from "react";
 
 const Accordion = ({ title, content }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -49,7 +49,11 @@ const Accordion = ({ title, content }) => {
           )}
         </span>
       </div>
-      {isOpen && <div className="text-l/snug font-normal text-gray-500 p-5">{content}</div>}
+      {isOpen && (
+        <div className="text-l/snug font-normal text-gray-500 p-5">
+          {content}
+        </div>
+      )}
     </div>
   );
 };
