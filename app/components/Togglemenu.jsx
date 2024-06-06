@@ -58,6 +58,7 @@ function Togglemenu() {
           </Link>
         </div>
         <button
+          aria-label="Toggle"
           className="flex text-sky-700 bg-sky-50 justify-center w-12 h-14 pt-5"
           onClick={toggleDiv}
         >
