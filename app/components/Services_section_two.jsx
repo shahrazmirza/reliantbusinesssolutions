@@ -97,7 +97,7 @@ function SectionTwoCard() {
           className="px-5 text-sm font-medium leading-none border-sky-700 border-solid border rounded text-white hover:text-sky-700 h-10 hover:bg-white bg-sky-700 mx-7"
           href="/"
         >
-          Read More
+          Learn More
         </button>
       </Container>
     </div>

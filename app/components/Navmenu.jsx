@@ -104,11 +104,10 @@ const Navmenu = () => {
                   </NavigationMenu.Item>
 
                   <NavigationMenu.Item>
-                    <Link
-                      href="/Contact"
-                      className="px-5 ml-5 text-sm font-medium leading-none border-sky-700 border-solid border rounded-full text-sky-700 hover:text-white h-10 hover:bg-sky-700 text-white-100 flex items-center justify-center"
-                    >
-                      Get In Touch
+                    <Link href="/Contact">
+                      <button className="px-5 ml-5 text-sm font-medium leading-none border-sky-700 border-solid border rounded-full text-sky-700 hover:text-white h-10 hover:bg-sky-700 text-white-100 flex items-center justify-center">
+                        Get In Touch
+                      </button>
                     </Link>
                   </NavigationMenu.Item>
                 </NavigationMenu.List>

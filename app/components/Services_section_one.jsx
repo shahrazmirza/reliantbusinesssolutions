@@ -101,11 +101,10 @@ function SectionOneCard() {
                 <p className="text-l/snug font-normal text-gray-500 py-5">
                   {item.content}
                 </p>
-                <Link
-                  href={item.href}
-                  className="px-5 text-sm font-medium leading-none border-sky-700 border-solid border rounded text-white hover:text-sky-700 h-10 hover:bg-white bg-sky-700 flex items-center justify-center w-fit"
-                >
-                  Read More
+                <Link href={item.href}>
+                  <button className="px-5 text-sm font-medium leading-none border-sky-700 border-solid border rounded text-white hover:text-sky-700 h-10 hover:bg-white bg-sky-700 flex items-center justify-center w-fit">
+                    Learn More
+                  </button>
                 </Link>
               </motion.div>
             </li>

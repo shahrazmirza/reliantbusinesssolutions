@@ -68,11 +68,10 @@ const Hero = () => {
                 animate="animate"
                 className="justify-center text-center w-fit pb-5"
               >
-                <Link
-                  className="px-5 text-sm font-medium leading-none border-sky-700 border-solid border-2 rounded-full text-white bg-sky-700 hover:bg-white hover:text-sky-700 h-10 flex items-center"
-                  href="/Contact"
-                >
-                  Get In Touch
+                <Link href="/Contact">
+                  <button className="px-5 text-sm font-medium leading-none border-sky-700 border-solid border-2 rounded-full text-white bg-sky-700 hover:bg-white hover:text-sky-700 h-10 flex items-center">
+                    Get In Touch
+                  </button>
                 </Link>
               </motion.div>
             </div>
