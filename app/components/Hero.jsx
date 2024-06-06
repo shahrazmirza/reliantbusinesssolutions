@@ -88,6 +88,7 @@ const Hero = () => {
               animate="animate"
             >
               <Image
+                alt="hero-image"
                 src="/assets/images/hero.png"
                 height="450"
                 width="450"
@@ -138,6 +139,7 @@ const Hero = () => {
             >
               <div>
                 <Image
+                  alt=""
                   src="/assets/images/protect.svg"
                   height="42"
                   width="42"
@@ -165,6 +167,7 @@ const Hero = () => {
             >
               <div>
                 <Image
+                  alt=""
                   src="/assets/images/expert.svg"
                   height="42"
                   width="42"
@@ -192,6 +195,7 @@ const Hero = () => {
             >
               <div>
                 <Image
+                  alt=""
                   src="/assets/images/best.svg"
                   height="42"
                   width="42"
@@ -221,6 +225,7 @@ const Hero = () => {
             >
               <div>
                 <Image
+                  alt=""
                   src="/assets/images/insured.svg"
                   height="42"
                   width="42"
