@@ -139,7 +139,7 @@ const Hero = () => {
             >
               <div>
                 <Image
-                  alt=""
+                  alt="Protect Financials"
                   src="/assets/images/protect.svg"
                   height="42"
                   width="42"
@@ -167,7 +167,7 @@ const Hero = () => {
             >
               <div>
                 <Image
-                  alt=""
+                  alt="Expert Advice"
                   src="/assets/images/expert.svg"
                   height="42"
                   width="42"
@@ -195,7 +195,7 @@ const Hero = () => {
             >
               <div>
                 <Image
-                  alt=""
+                  alt="Best Prices for Value"
                   src="/assets/images/best.svg"
                   height="42"
                   width="42"
@@ -225,7 +225,7 @@ const Hero = () => {
             >
               <div>
                 <Image
-                  alt=""
+                  alt="Insured Business"
                   src="/assets/images/insured.svg"
                   height="42"
                   width="42"
