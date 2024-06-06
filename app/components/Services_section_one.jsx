@@ -102,8 +102,8 @@ function SectionOneCard() {
                   {item.content}
                 </p>
                 <Link href={item.href}>
-                  <button className="px-5 text-sm font-medium leading-none border-sky-700 border-solid border rounded text-white hover:text-sky-700 h-10 hover:bg-white bg-sky-700 flex items-center justify-center w-fit">
-                    Learn More
+                  <button className="capitalize px-5 text-sm font-medium leading-none border-sky-700 border-solid border rounded text-white hover:text-sky-700 h-10 hover:bg-white bg-sky-700 flex items-center justify-center w-fit">
+                    learn more
                   </button>
                 </Link>
               </motion.div>
