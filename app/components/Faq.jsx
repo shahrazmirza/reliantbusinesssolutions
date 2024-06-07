@@ -73,7 +73,7 @@ const Faq = () => {
           </motion.div>
           <div className="md:flex md:text-start text-center justify-center">
             <p className="text-xl/snug font-normal mr-1 ">
-              Didnât answer your questions?
+              Didn't answer your questions?
             </p>
             <span> </span>
             <Link
