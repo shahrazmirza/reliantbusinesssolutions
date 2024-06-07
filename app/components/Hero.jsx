@@ -89,7 +89,6 @@ const Hero = () => {
             >
               <Image
                 alt="hero-image"
-                loading="lazy"
                 decoding="async"
                 data-nimg="1"
                 style="color:transparent"
