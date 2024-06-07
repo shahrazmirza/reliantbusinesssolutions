@@ -93,7 +93,7 @@ const Hero = () => {
                 data-nimg="1"
                 style="color:transparent"
                 src="/assets/images/hero.webp"
-                height="450"
+                height="1"
                 width="450"
               ></Image>
             </motion.div>
