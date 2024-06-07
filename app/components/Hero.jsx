@@ -92,7 +92,7 @@ const Hero = () => {
                 decoding="async"
                 data-nimg="1"
                 style="color:transparent"
-                src="/assets/images/hero.png"
+                src="/assets/images/hero.webp"
                 height="450"
                 width="450"
               ></Image>
