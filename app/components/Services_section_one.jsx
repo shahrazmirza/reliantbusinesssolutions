@@ -74,6 +74,8 @@ function SectionOneCard() {
                       src={item.image}
                       alt={item.title}
                       style={{ maxWidth: "100%", height: "auto" }}
+                      width="300" // Replace with actual width
+                      height="200" // Replace with actual height
                     />
                   )}
                 </Link>
