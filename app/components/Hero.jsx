@@ -90,6 +90,9 @@ const Hero = () => {
               <Image
                 alt="hero-image"
                 loading="lazy"
+                decoding="async"
+                data-nimg="1"
+                style="color:transparent"
                 src="/assets/images/hero.png"
                 height="450"
                 width="450"
