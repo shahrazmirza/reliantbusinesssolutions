@@ -89,6 +89,7 @@ const Hero = () => {
             >
               <Image
                 alt="hero-image"
+                loading="lazy"
                 src="/assets/images/hero.png"
                 height="450"
                 width="450"
