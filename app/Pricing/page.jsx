@@ -161,13 +161,13 @@ const Pricing = () => {
             </div>
             <div className="grid grid-cols-2 text-center gap-0 mx-10 border-l border-r border-b border-black text-base md:text-lg font-normal text-gray-800 bg-gray-100">
               <p className="border-r border-black text-start pl-5">
-                Company Registeration - starts at
+                Company Registration - starts at
               </p>
               <p>$475.00</p>
             </div>
             <div className="grid grid-cols-2 text-center gap-0 mx-10 border-l border-r border-b border-black text-base md:text-lg font-normal text-gray-800 bg-gray-300">
               <p className="border-r border-black text-start pl-5">
-                ABN / TFN Registeration
+                ABN / TFN Registration
               </p>
               <p>$125.00</p>
             </div>
