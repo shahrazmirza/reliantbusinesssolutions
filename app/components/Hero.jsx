@@ -89,9 +89,6 @@ const Hero = () => {
             >
               <Image
                 alt="hero-image"
-                decoding="async"
-                data-nimg="1"
-                style="color:transparent"
                 src="/assets/images/hero.webp"
                 height="1"
                 width="450"
