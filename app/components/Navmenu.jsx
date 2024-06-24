@@ -43,7 +43,7 @@ const Navmenu = () => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 1.0 }}
           >
-            <Link href="https://www.reliantbusinesssolutions.com.au">
+            <Link href="/">
               <Image
                 src="/assets/images/logo.png"
                 alt="Reliant Logo"
