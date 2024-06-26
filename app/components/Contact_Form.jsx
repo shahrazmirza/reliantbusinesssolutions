@@ -2,7 +2,7 @@
 import { Container } from "@radix-ui/themes";
 import React, { useState } from "react";
 import { MdLocalPhone, MdLocationOn, MdEmail } from "react-icons/md";
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 import Link from "next/link";
 import AlertOverlay from "./Alert";
 
@@ -100,14 +100,19 @@ export const ContactForm = () => {
           <p className="text-lg/loose font-normal md:text-xl/loose md:font-normal text-gray-500">
             Email us
           </p>
-          <div className="flex items-center">
+          <a
+            href={`mailto:info@reliantbusinesssolutions.com.au`}
+            target="_blank"
+            className="flex items-center"
+          >
             <div className="text-sky-700 leading-10 pr-1">
               <MdEmail />
             </div>
+
             <p className="text-l/snug font-normal text-sky-700 leading-10">
               info@reliantbusinesssolutions.com.au
             </p>
-          </div>
+          </a>
           {/* <p className='text-lg/loose font-normal md:text-xl/loose md:font-normal text-gray-500'>Visit us</p>
             <div className='flex items-center'>
               <div className='text-sky-700 leading-10 pr-1'>
@@ -120,19 +125,27 @@ export const ContactForm = () => {
           </p>
           <div className="flex pt-5 pb-5">
             <div className="pr-1">
-              <div class="font-bold text-white rounded-full bg-sky-700 flex items-center justify-center font-mono h-7 w-7 px-2">
+              <Link
+                href="https://www.facebook.com/reliantaccountants?mibextid=ZbWKwL"
+                target="_blank"
+                className="font-bold text-white rounded-full bg-sky-700 flex items-center justify-center font-mono h-7 w-7 px-2"
+              >
                 <FaFacebookF />
-              </div>
+              </Link>
             </div>
-            <div className="pr-1">
+            {/* <div className="pr-1">
               <div class="font-bold text-white rounded-full bg-sky-700 flex items-center justify-center font-mono h-7 w-7 px-2">
                 <FaTwitter />
               </div>
-            </div>
+            </div> */}
             <div className="pr-1">
-              <div class="font-bold text-white rounded-full bg-sky-700 flex items-center justify-center font-mono h-7 w-7 px-2">
-                <FaLinkedinIn />
-              </div>
+              <Link
+                href="https://www.instagram.com/reliantbusinesssolutions?igsh=MTV5Nm5tbTBuOHdwbA=="
+                target="_blank"
+                className="font-bold text-white rounded-full bg-sky-700 flex items-center justify-center font-mono h-7 w-7 px-2"
+              >
+                <FaInstagram />
+              </Link>
             </div>
           </div>
         </div>
