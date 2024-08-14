@@ -91,7 +91,7 @@ const Registrations = () => {
                 </p>
                 <p className="text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm">
                   Streamlined processes to secure your Australian Business
-                  Number
+                  Number.
                 </p>
               </div>
             </div>
@@ -244,10 +244,10 @@ const Registrations = () => {
               Our Services
             </p>
             <p className="text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm">
-              Ongoing Compliance Support––
+              NDIS Plan Manager Registration
             </p>
             <p className="text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm">
-              We go beyond registration to offer ongoing compliance support
+              We go beyond registration to offer NDIS plan manager registration
             </p>
 
             <div className="flex px-4 pt-4">
@@ -269,11 +269,11 @@ const Registrations = () => {
               </div>
               <div className="pl-4">
                 <p className="text-base/relaxed font-medium md:drop-shadow-sm">
-                  Annual Compliance Checks
+                  NDIS Plan Manager Registration
                 </p>
                 <p className="text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm">
-                  Regular checks to ensure ongoing compliance with regulatory
-                  requirements.
+                  We offer comprehensive support to guide you through the entire
+                  NDIS Plan Manager registration process.
                 </p>
               </div>
             </div>
@@ -297,11 +297,41 @@ const Registrations = () => {
               </div>
               <div className="pl-4">
                 <p className="text-base/relaxed font-medium md:drop-shadow-sm">
-                  Updates and Amendments
+                  Ongoing Plan Management Support
                 </p>
                 <p className="text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm">
-                  Assistance with any necessary updates or amendments to your
-                  registered details.
+                  Continuous support to help you manage your NDIS plan
+                  efficiently, ensuring all financial and administrative tasks
+                  are handled with care.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex px-4 pt-4">
+              <div class="flex items-center justify-center w-6 h-6 bg-pink-200 rounded-full mt-1">
+                <svg
+                  class="w-6 h-6 text-stone-600 opacity-60 p-1"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
+                </svg>
+              </div>
+              <div className="pl-4">
+                <p className="text-base/relaxed font-medium md:drop-shadow-sm">
+                  Updates and Amendments Assistance
+                </p>
+                <p className="text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm">
+                  We provide assistance with any necessary changes, ensuring
+                  your registration remains accurate and aligned with NDIS
+                  requirements.
                 </p>
               </div>
             </div>
@@ -309,7 +339,7 @@ const Registrations = () => {
         </div>
 
         <div className="flex flex-col text-center justify-center bg-sky-50 py-12">
-          <p className="text-2xl/snug font-semibold md:text-3xl/snug font-semibold">
+          <p className="text-2xl/snug md:text-3xl/snug font-semibold">
             Why Choose Reliant Business Solutions?
           </p>
         </div>

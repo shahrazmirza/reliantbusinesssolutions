@@ -9,7 +9,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import Whatsapp from "../components/Whatsapp";
 
-const Planning = () => {
+const Web = () => {
   return (
     <div>
       <Navbar />
@@ -21,7 +21,7 @@ const Planning = () => {
             Welcome to Reliant Business Solutions
           </p>
           <p className="text-lg/snug font-normal text-gray-500">
-            Your Trusted Partner for Strategic Financial Planning
+            Your Trusted Partner for Web Development
           </p>
         </div>
         <div className="md:grid md:grid-cols-2 items-center bg-gray-100">
@@ -39,7 +39,7 @@ const Planning = () => {
             className="flex justify-center items-center"
           >
             <Image
-              src="/assets/images/planning1.jpg"
+              src="/assets/images/web1.jpg"
               height="600"
               width="1000"
             ></Image>
@@ -61,11 +61,11 @@ const Planning = () => {
               Our Services
             </p>
             <p className="text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm">
-              Strategic Financial Planning––
+              Website Development––
             </p>
             <p className="text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm">
-              Our financial planning services will navigate the financial
-              landscape for your business success
+              Our website development services will guide your business through
+              the digital landscape, ensuring online success
             </p>
 
             <div className="flex px-4 pt-4">
@@ -87,11 +87,11 @@ const Planning = () => {
               </div>
               <div className="pl-4">
                 <p className="text-base/relaxed font-medium md:drop-shadow-sm">
-                  Business Financial Assessment
+                  Business Web Assessment
                 </p>
                 <p className="text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm">
-                  In-depth analysis of your current financial position and
-                  future goals.
+                  In-depth analysis of your current online presence and future
+                  digital goals.
                 </p>
               </div>
             </div>
@@ -115,11 +115,11 @@ const Planning = () => {
               </div>
               <div className="pl-4">
                 <p className="text-base/relaxed font-medium md:drop-shadow-sm">
-                  Customised Financial Strategies
+                  Customised Web Strategies
                 </p>
                 <p className="text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm">
-                  Tailored plans to optimise your financial resources and
-                  enhance profitability.
+                  Tailored development plans to optimise your website’s
+                  performance and enhance user experience.
                 </p>
               </div>
             </div>
@@ -143,11 +143,11 @@ const Planning = () => {
               </div>
               <div className="pl-4">
                 <p className="text-base/relaxed font-medium md:drop-shadow-sm">
-                  Risk Management
+                  Security Management
                 </p>
                 <p className="text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm">
-                  Identification and mitigation of potential financial risks to
-                  safeguard your business.
+                  Identification and mitigation of potential online security
+                  risks to safeguard your business website.
                 </p>
               </div>
             </div>
@@ -160,11 +160,11 @@ const Planning = () => {
               Our Services
             </p>
             <p className="text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm">
-              Retirement Planning for Business Owners––
+              Mobile App Development––
             </p>
             <p className="text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm">
-              Our retirement planning services will offer securing your
-              financial future
+              Our mobile app development services will secure your business’s
+              future in the mobile-first world
             </p>
             <div className="flex px-4 pt-4">
               <div class="flex items-center justify-center w-6 h-6 bg-emerald-300 rounded-full mt-1">
@@ -185,11 +185,11 @@ const Planning = () => {
               </div>
               <div className="pl-4">
                 <p className="text-base/relaxed font-medium md:drop-shadow-sm">
-                  Personalised Retirement Plans
+                  Personalised App Solutions
                 </p>
                 <p className="text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm">
-                  Customised strategies to ensure a comfortable retirement for
-                  business owners.
+                  Custom strategies to create a mobile app that meets the unique
+                  needs of your business and enhances user engagement.
                 </p>
               </div>
             </div>
@@ -213,98 +213,21 @@ const Planning = () => {
               </div>
               <div className="pl-4">
                 <p className="text-base/relaxed font-medium md:drop-shadow-sm">
-                  Superannuation Guidance
+                  Platform-Specific Expertise
                 </p>
                 <p className="text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm">
-                  Expert advice on managing and maximising superannuation
-                  benefits.
+                  Expert guidance on developing and optimising apps for iOS,
+                  Android, and cross-platform use.
                 </p>
               </div>
             </div>
           </div>
           <div className="flex justify-center items-center">
             <Image
-              src="/assets/images/planning2.jpg"
+              src="/assets/images/web2.jpg"
               height="600"
               width="1000"
             ></Image>
-          </div>
-        </div>
-
-        <div className="md:grid md:grid-cols-2 items-center bg-gray-100">
-          <div className="flex justify-center items-center">
-            <Image
-              src="/assets/images/planning3.jpg"
-              height="600"
-              width="1000"
-            ></Image>
-          </div>
-          <div className="md:px-20 md:pr-40 p-7">
-            <p className="text-base/relaxed font-normal text-gray-500 text-center md:drop-shadow-sm">
-              Our Services
-            </p>
-            <p className="text-2xl/relaxed md:text-2xl/relaxed md:text-3xl/relaxed font-semibold md:drop-shadow-sm">
-              Succession Planning––
-            </p>
-            <p className="text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm">
-              Our succession planning services will plan for your business's
-              future
-            </p>
-
-            <div className="flex px-4 pt-4">
-              <div class="flex items-center justify-center w-6 h-6 bg-pink-200 rounded-full mt-1">
-                <svg
-                  class="w-6 h-6 text-stone-600 opacity-60 p-1"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M5 13l4 4L19 7"
-                  ></path>
-                </svg>
-              </div>
-              <div className="pl-4">
-                <p className="text-base/relaxed font-medium md:drop-shadow-sm">
-                  Business Transition Strategies
-                </p>
-                <p className="text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm">
-                  Smooth and effective plans for passing on or selling your
-                  business.
-                </p>
-              </div>
-            </div>
-
-            <div className="flex px-4 pt-4">
-              <div class="flex items-center justify-center w-6 h-6 bg-pink-200 rounded-full mt-1">
-                <svg
-                  class="w-6 h-6 text-stone-600 opacity-60 p-1"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M5 13l4 4L19 7"
-                  ></path>
-                </svg>
-              </div>
-              <div className="pl-4">
-                <p className="text-base/relaxed font-medium md:drop-shadow-sm">
-                  Estate Planning
-                </p>
-                <p className="text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm">
-                  Ensuring your business assets are passed on seamlessly.
-                </p>
-              </div>
-            </div>
           </div>
         </div>
 
@@ -338,8 +261,8 @@ const Planning = () => {
                     Industry Expertise
                   </p>
                   <p className="text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm">
-                    Our team brings extensive experience in financial planning
-                    for businesses across various industries.
+                    Our team has extensive experience in web and mobile app
+                    development across diverse industries.
                   </p>
                 </div>
               </div>
@@ -366,8 +289,8 @@ const Planning = () => {
                     Personalised Service
                   </p>
                   <p className="text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm">
-                    We understand that every business is unique. Our solutions
-                    are tailored to meet your specific needs.
+                    We understand that every business is unique. Our digital
+                    solutions are tailored to meet your specific needs.
                   </p>
                 </div>
               </div>
@@ -394,8 +317,9 @@ const Planning = () => {
                     Commitment to Success
                   </p>
                   <p className="text-base/relaxed font-normal text-gray-500 md:drop-shadow-sm">
-                    We are dedicated to the success and financial well-being of
-                    your business.
+                    We are dedicated to driving the success and digital
+                    transformation of your business, ensuring your online
+                    presence and mobile platforms thrive.
                   </p>
                 </div>
               </div>
@@ -424,4 +348,4 @@ const Planning = () => {
   );
 };
 
-export default Planning;
+export default Web;
