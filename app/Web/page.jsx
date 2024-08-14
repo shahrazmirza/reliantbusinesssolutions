@@ -3,7 +3,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Scroll_to_top from "../components/Scroll_to_top";
 import Footer from "../components/Footer";
-import { Container, Section } from "@radix-ui/themes";
+import { Container } from "@radix-ui/themes";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
