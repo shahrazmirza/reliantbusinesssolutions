@@ -268,7 +268,12 @@ const Footer = () => {
             <MdCopyright />
             <p>2024 Reliant Business Solutions Pty Ltd</p>
           </div>
-          <p className="text-center">(ABN 79 661 861 294)</p>
+          <Link
+            href="https://abr.business.gov.au/ABN/View?id=79661861294"
+            target="_blank"
+          >
+            <p className="text-center">(ABN 79 661 861 294)</p>
+          </Link>
         </div>
       </Container>
     </div>
