@@ -51,7 +51,7 @@ const Associations = () => {
               animate={fadeControls}
             >
               <Link
-                href="https://myprofile.tpb.gov.au/public-register/"
+                href="https://myprofile.tpb.gov.au/public-register/practitioner/?ran=26237451"
                 target="_blank"
                 className="flex justify-center rounded-lg bg-sky-100 w-28 h-28"
               >
